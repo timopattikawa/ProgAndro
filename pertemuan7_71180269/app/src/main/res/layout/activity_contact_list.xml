@@ -20,11 +20,10 @@
 
         <TextView
             android:id="@+id/tvEmail"
-            android:layout_width="wrap_content"
+            android:layout_width="262dp"
             android:layout_height="wrap_content"
-            android:text="timotius@gmail.com"
             android:paddingRight="10dp"
-           />
+            android:text="timotius@gmail.com" />
 
         <TextView
             android:id="@+id/tvNoTelp"

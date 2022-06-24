@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/tvJudulBuku"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Si Buta"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/primary"
+            android:text="Hapus"
+            android:id="@+id/btnDelete"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Penulis" />
+
+        <TextView
+            android:id="@+id/tvnamaPenulis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Joko anwar"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Penerbit" />
+
+        <TextView
+            android:id="@+id/tvNamaPenerbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sinar indah"
+            />/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Tahun Terbit" />
+
+        <TextView
+            android:id="@+id/tvTahunTerbit"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:text="2001" />
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="Tahun Terbit" />
+
+        <TextView
+            android:id="@+id/tvJumlahHalaman"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="200"
+            />
+    </LinearLayout>
+    <View style="@style/Divider"/>
+
+
+</LinearLayout>

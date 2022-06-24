@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halaman Input Buku"
+        android:textSize="24dp"
+        android:textColor="@color/secondary"
+        android:layout_marginBottom="4dp"/>
+
+
+    <EditText
+        android:id="@+id/edtJudulBuku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Judul Buku" />
+
+    <EditText
+        android:id="@+id/edtNamaPenulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nama Penulis" />
+
+    <EditText
+        android:id="@+id/edtNamaPenerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nama Penerbit" />
+    <EditText
+        android:id="@+id/edtTahunTerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tahun Terbit" />
+    <EditText
+        android:id="@+id/edtJumlahHalaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Jumlah Halaman" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSimpanBuku"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:text="Simpan Buku"
+        android:background="@drawable/bg_btn_primary"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
